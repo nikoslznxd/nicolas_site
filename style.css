@@ -1,0 +1,41 @@
+
+.container{
+  margin-top: 0;
+}
+.container-fluid2{
+  margin-top: 50px;
+}
+
+.container-fluid{
+  height: 50px;
+  background-color: red;
+}
+
+
+
+.menu ul li{
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.menu ul li a{
+text-decoration: none;
+color: #000000;
+font-size: 25px;
+margin-right: 15px;
+margin-left: 17px;
+}
+
+body{
+  background-size: 100%;
+background-image: url('img/test/fond.jpg');
+background-repeat: no-repeat;
+}
+
+h1{
+  color: white;
+}
+
+p{
+color: white;
+}
