@@ -16,6 +16,7 @@
 .menu ul li{
   display: inline-block;
   margin-top: 5px;
+  font-family: 'Nanum Brush Script', cursive;
 }
 
 .menu ul li a{
@@ -38,4 +39,32 @@ h1{
 
 p{
 color: white;
+}
+
+
+
+.container3{
+  margin-top: 50px;
+}
+
+.container4{
+  height: 100px;
+}
+.card-body2 {
+   bottom: 5px;
+   bottom: 0px;
+   border: 1px solid #276D0A;
+   margin: 2px;
+   width: 100%;
+   height: 400px;
+   overflow: scroll;
+}
+
+.btn-primary{
+background-color: red;
+font-family: 'Nanum Brush Script', cursive;
+}
+
+.btn-primary:hover{
+  background-color: red;
 }
