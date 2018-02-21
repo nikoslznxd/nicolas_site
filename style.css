@@ -29,8 +29,26 @@ margin-left: 17px;
 
 body{
   background-size: 100%;
-background-image: url('img/test/fond.jpg');
+background-color: #031018;
 background-repeat: no-repeat;
+}
+
+.nicolas{
+-moz-box-shadow: 2px 0px 5px 6px #fe0000;
+-webkit-box-shadow: 2px 0px 5px 6px #fe0000;
+-o-box-shadow: 2px 0px 5px 6px #fe0000;
+box-shadow: 2px 0px 5px 6px #fe0000;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+.img-fluid{
+  border-radius: 5px;
+}
+
+.appareil{
+  margin-bottom: 10px;
 }
 
 h1{
@@ -48,8 +66,25 @@ color: white;
 }
 
 .container4{
-  height: 100px;
+  margin-top: 50px;
 }
+
+.container5{
+  margin-top: 50px;
+}
+
+
+.textevideos{
+  text-align: center;
+}
+.container6{
+  text-align: center;
+}
+
+.textephotos{
+  text-align: center;
+}
+
 .card-body2 {
    bottom: 5px;
    bottom: 0px;
