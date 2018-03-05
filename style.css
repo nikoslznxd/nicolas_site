@@ -103,3 +103,8 @@ font-family: 'Nanum Brush Script', cursive;
 .btn-primary:hover{
   background-color: red;
 }
+
+.footer{
+  width: 100%;
+  color: red;
+}
