@@ -1,61 +1,14 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Site de Nicolas</title>
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
-    <link rel="stylesheet" href="bootstrap\dist\css\bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-
-<!-- MENU PRINCIPALE -->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Nicolas Fournier</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Acceuil <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="curriculum.html">Curriculum</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Créations
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="ecrits.html">Ecrits</a>
-          <a class="dropdown-item" href="vidéos.html">Vidéos</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="photos.html">Photos</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="contact.html">Contact</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+<?php include('header.php'); ?>
 
     <!-- PRESENTATION -->
 
-    <div class="container-fluid2">
+<div class="container-fluid2">
   <div class="container2">
     <div class="row">
       <article class="col-md-2">
       </article>
       <article class="col-md-4">
-        <h1>Qui suis-je?</h1>
+        <a class="titre" href="index.php"> <h1>QUI-SUIS-JE</h1></a>
          <p>Excellente question! les astrologues disent que je suis un jeune Taureau en quête de découverte, de passion et surtout d'évolution! Moi, celui qui à hais les langues comme l'anglais ou l'espagnole, me voilà à vouloir maitriser tout les langues informatique, en les triturant dans tout les sens, comme un petit chimiste devant sa table. Vous êtes ici, sur ce portfolio donc, dans un espace de créations et de tests pour le petit développeur que je suis.</p>
          <p>Mon but est donc de vous faire partager mes expériences à travers différent format, tout en mettant en avance mes compétences pour plaire à un futur employeur ( et oui, le travail avant tout!). Je vous partagerez en plus mes passions secrète, elle aussi lié au numérique comme la photos et la vidéo, mais aussi quelques écrits, ma patite passion caché, pour le plaisir de jouer sur les mots, de faire des rimes et de raconter des choses qui n'ont parfois ni queue ni tête!</p>
          <p>"Dragon des mots, j'attend l'heure de mon extinction."</p>
@@ -83,7 +36,7 @@
         <img class="img-fluid" src="img\test\27857751_10211893784883153_2628486385080447532_n.jpg" alt="">
      </article>
       <article class="col-md-5">
-        <h1>deuxieme article</h1>
+        <a class="titre" href="curriculum.php"> <h1>CURRICULUM</h1></a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
@@ -99,7 +52,7 @@
     <article class="col-md-1">
     </article>
     <article class="col-md-5">
-      <h1>deuxieme article</h1>
+      <a class="titre" href="ecrits.php"> <h1>MES ECRITS</h1></a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </article>
@@ -115,7 +68,7 @@
 </div>
 
 <!-- VIDEOS -->
-
+  <a class="titre" href="vidéos.php"> <h1>MES VIDEOS</h1></a>
 <div class="container5">
   <div class="row">
     <article class="col-md-1">
@@ -146,7 +99,7 @@
 
 
 <!-- PHOTOS -->
-
+<a class="titre" href="photos.php"> <h1>MES PHOTOS</h1></a>
 <div class="container6">
   <div class="row">
     <article class="col-md-12">
