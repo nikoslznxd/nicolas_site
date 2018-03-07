@@ -37,7 +37,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="ficheproduit.php">ficheproduit</a>
+          <a class="nav-link disabled" href="contact.php">contact</a>
         </li>
       </ul>
     </div>

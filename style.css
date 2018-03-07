@@ -17,7 +17,7 @@ background-color: white;
 
 body{
   background-size: 100%;
-background-color: #B297AC;
+background-color: #B297AC !important;
 background-repeat: no-repeat;
 }
 
@@ -116,4 +116,16 @@ font-family: 'Nanum Brush Script', cursive;
 width: 150px;
   margin: 40px auto;
 
+}
+
+/* contact */
+
+.information{
+  text-align: center;
+  background-color: blue;
+}
+
+.contact-us{
+  background-color:#B297AC;
+  margin-top: 50px;
 }
