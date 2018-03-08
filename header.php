@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Site de Nicolas</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap\dist\css\bootstrap.min.css">
     <link rel="stylesheet" href="style.css">

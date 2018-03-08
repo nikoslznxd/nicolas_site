@@ -8,7 +8,7 @@
 
 .container-fluid{
   height: 50px;
-  background-color: red;
+  background-color: white;
 }
 
 .menulol{
@@ -41,7 +41,6 @@ border-radius: 10px;
 
 h1{
   color: black;
-  text-align: center;
   margin-top: 30px;
 }
 
@@ -99,7 +98,7 @@ font-family: 'Nanum Brush Script', cursive;
 .footer{
   margin-top: 200px;
   width: 100%;
-  color: white;
+  background-color: white;
 }
 
 .bouton{
@@ -128,4 +127,35 @@ width: 150px;
 .contact-us{
   background-color:#B297AC;
   margin-top: 50px;
+}
+
+.error{
+  color: red;
+}
+
+/* curriculum */
+
+
+.information-curriculum{
+margin-top:30px;
+background-color: white;
+border-radius: 10px;
+}
+
+.photodemoi{
+  margin-top: 30px;
+}
+
+.logolinkedin{
+font-size: 30px;
+}
+
+.traitfin{
+  background-color: grey;
+  width: 100%;
+  height: 10px;
+}
+
+.text-justify{
+  margin-top: 30px;
 }
